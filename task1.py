@@ -1,4 +1,4 @@
-class Person:
+BOBclass Person:
     def __init__(self, fullname, age, city, plane, sit_number) -> None:
         self.fullname = fullname
         self.age = age
@@ -32,3 +32,4 @@ class Airport:
 a1 = Airport("Turkish airlines", "Istanbul")
 p1 = Person("Yunusjonov Shavkatjon", 16, "Amsterdam", "AS528", 25)
 print(a1.check(p1))
+#o'zgaraish
